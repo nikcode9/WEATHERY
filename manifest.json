@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Weather Fetcher",
+    "version": "1.0",
+    "description": "Fetches and displays current weather information.",
+    "permissions": [
+      "geolocation"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "128": "icon16.png"
+      }
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
