@@ -8,25 +8,26 @@ Location-Based Forecasts: Automatically detects your location and provides accur
 Multi-Day Forecasts: View detailed weather forecasts for the next few days.
 Customizable Settings: Choose between Celsius and Fahrenheit, set your preferred location manually, and customize the update frequency.
 Minimalistic Design: Clean and intuitive interface that integrates seamlessly with your browser.
-Installation
+#Installation
 Clone this repository to your local machine using:
 
 bash
 Copy code
 git clone https://github.com/yourusername/weather-chrome-extension.git
-Open Google Chrome and navigate to chrome://extensions/.
 
-Enable "Developer mode" by toggling the switch in the top-right corner.
+1)Open Google Chrome and navigate to chrome://extensions/.
 
-Click on the "Load unpacked" button and select the directory where you cloned the repository.
+2)Enable "Developer mode" by toggling the switch in the top-right corner.
 
-The Weather Chrome Extension should now appear in your list of extensions and be ready to use.
+3)Click on the "Load unpacked" button and select the directory where you cloned the repository.
+
+4)The Weather Chrome Extension should now appear in your list of extensions and be ready to use.
 
 Usage
-Click on the Weather Chrome Extension icon in your browser toolbar.
+1)Click on the Weather Chrome Extension icon in your browser toolbar.
 
-Allow location access if prompted to receive weather updates for your current location.
+2)Allow location access if prompted to receive weather updates for your current location.
 
-View the current weather conditions and forecasts directly from the extension popup.
+3)View the current weather conditions and forecasts directly from the extension popup.
 
-Access the settings menu to customize your preferences, such as temperature units and location settings
+4)Access the settings menu to customize your preferences, such as temperature units and location settings
