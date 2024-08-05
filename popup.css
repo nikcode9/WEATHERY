@@ -1,14 +1,67 @@
-body {
-    font-family: Arial, sans-serif;
-    width: 200px;
-    padding: 10px;
-  }
-  
-  #weather {
-    text-align: center;
-  }
-  
-  #location, #temperature, #conditions {
-    margin: 5px 0;
-  }
-  
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom, #2c3e50, #3498db);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    #weather {
+      width: 250px;
+      background: rgba(255, 255, 255, 0.85);
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      text-align: center;
+      padding: 20px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    #weather::before {
+      content: "";
+      background: url('https://source.unsplash.com/featured/?weather') no-repeat center center;
+      background-size: cover;
+      filter: blur(20px);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      border-radius: 15px;
+    }
+
+    #location {
+      font-size: 22px;
+      font-weight: 700;
+      color: #2c3e50;
+      margin: 15px 0;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    }
+
+    #temperature {
+      font-size: 50px;
+      font-weight: 700;
+      color: #e74c3c;
+      margin: 10px 0;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    #conditions {
+      font-size: 18px;
+      color: #34495e;
+      margin: 10px 0;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    }
+
+    #weather img {
+      width: 100px;
+      margin: 15px 0;
+      filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.2));
+    }
+
